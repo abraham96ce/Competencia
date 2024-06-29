@@ -1,0 +1,6 @@
+Competencia Mateprepa: XefQDhN75KKR
+
+Create Table comite( comite_id int(10), comite_nombre varchar(255) not null, comite_clave varchar(255) not null, comite_rol tinyint(2) unsigned not null, comite_correo varchar(255) not null, comite_fechaRegistro timestamp not null, comite_activo tinyint(1) unsigned not null, comite_edición year(4) not null, Primary Key(comite_id), Foreign Key(comite_rol) references rol_usuario(rol_id));
+
+//Insertar registros en la tabla
+Insert into comite Values(1, 'Franciso Huguez', 'enriquecerunison', 5, 'francisochuguez@hotmail.com', '2024-02-23 12:42:10', 1, 2024); 

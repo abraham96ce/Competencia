@@ -1,0 +1,216 @@
+body {
+    background-color: #b9b9bd;
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el padding predeterminado */
+    text-align: center;
+}
+form {
+    padding: 5px; 
+    text-align: center;
+}
+
+.button-container {
+    display: flex; /* Utilizar flexbox */
+    justify-content: center; /* Centrar elementos horizontalmente */
+    margin-bottom: 10px; /* Espacio entre las hileras de botones */
+}
+
+button.w3-theme-slightly-dark-red {
+    color: #fff !important;
+    background-color: #D32F2F !important;
+}
+
+.w3-theme-slightly-dark-red {
+    color: #fff !important;
+    background-color: #D32F2F !important;
+}
+
+.vertical-buttons {
+    display: flex; /* Utilizar flexbox */
+    flex-direction: column; /* Alinear botones en vertical */
+    align-items: center; /* Centrar botones verticalmente */
+}
+
+input[type="submit"] {
+    margin: 5px; /* Espacio entre botones */
+}
+
+.mt-3 {
+    margin-top: 1rem!important;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+.form-label-1 {
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+}
+
+.franja-azul {
+    background-color: rgba(16, 54, 157, 0.943);
+    height: 35px; /* Ajusta la altura según tu preferencia */
+    width: 100%; /* Ocupa todo el ancho */
+}
+
+.franja-amarilla {
+    background-color: rgb(244, 159, 2);
+    height: 35px;
+    width: 100%;
+}
+.table-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: auto; /* Permitir desplazamiento horizontal en dispositivos móviles */
+}
+
+.table-container table {
+    width: 100%;
+    max-width: 100%; /* Asegura que la tabla no exceda el contenedor */
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    table-layout: auto; /* Ajustar el tamaño de las columnas según el contenido */
+}
+
+.table-container th,
+.table-container td {
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
+}
+
+.table-container th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+}
+
+.table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-container tr:hover {
+    background-color: #ddd;
+}
+
+.form-control {
+    display: block;
+    width: calc(100% - 100px); /* Ancho ajustado */
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px; /* Ajusta este valor según sea necesario */
+}
+
+.form-control-1 {
+    display: block;
+    width: calc(100% - 100px); /* Ancho ajustado */
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px; /* Ajusta este valor segÃºn sea necesario */
+}
+
+.form-control-pdf {
+    display: block;
+    width: auto; /* Ancho ajustado automáticamente */
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-bottom: 10px; /* Ajusta este valor según sea necesario */
+    margin-left: 25px; /* Ajuste de margen izquierdo para que coincida con otros campos */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#logo {
+    width: 10%; /* Utilizando un porcentaje del ancho de la ventana */
+    max-width: 75px; /* Tamaño máximo del logo */
+    height: auto; /* Mantener la proporción */
+    margin-right: 10px;
+}
+
+.row-cols-1 h4,
+.row-cols-1 h5 {
+    margin: 10px; 
+}
+
+.row-cols-1 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.bg-principal {
+    background-color: rgb(246, 246, 246, 0.8);
+    padding: 10px 20px;  
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    min-height: 75px;
+}
+
+.bg-principal .nav {
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.bg-principal .nav a {
+    padding: 0 10px;
+    color: #555;
+    text-decoration: none;
+}
+
+.bg-principal p {
+    margin: 0;
+    color: #555;
+}
+
+footer.bg-principal {
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.6); /* Valor negativo para el desplazamiento vertical */
+}
+
+@media (min-width: 768px) {
+    .row-cols-1 {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .form-control-pdf {
+        width: calc(100% - 50px); /* Ancho ajustado automáticamente para dispositivos móviles */
+        /* Otros estilos específicos para dispositivos móviles si es necesario */
+    }
+}
+
